@@ -18,7 +18,7 @@ class Login extends Component {
 
 	}
 	render(){
-		//console.log(this.state, ' this state')
+		console.log(this.state, ' this state')
 		return (
 			<form onSubmit={this.handleSubmit}>
 				<input type='text' name='username' onChange={this.handleChange} value={this.state.username} placeholder='username'/>
